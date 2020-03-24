@@ -1,20 +1,20 @@
 * {
     font-family: "Rimouski";
 }
+
 body{
     margin-top: 100px;
     background-color: #293251;
 }
-p {
-    margin-top: 15px;
+ p {
+    margin-top: 55px; 
+    color: #060505;
 }
 .container{
     width: 300px;    
     background-color: #FFF;
-    
     display: block;
     margin: 0 auto;
-    
     border-radius: 10px;
     padding-bottom : 50px;
 }
@@ -74,24 +74,24 @@ p {
 }
 
 .temperature-value p:hover {  
-
+    color: #5da06a;
 }
 
 .temperature-value span {
-    color: #293251;
+    color:#140ac9b5;
     font-size: 0.5em;
 }
-.temperature-description p{
+.temperature-description p {
     padding: 22px;
     margin: 0;
-    color: #293251;
+    color: #140ac9b5;
     text-align: center;
     font-size: 1.2em;
 }
 .location p {
     margin: 0;
     padding: 0;
-    color: #293251;
+    color: #1c3079;
     text-align: center;
     font-size: 0.8em;
 }
